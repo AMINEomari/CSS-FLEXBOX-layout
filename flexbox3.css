@@ -2,19 +2,6 @@
     background-color: #636363;
     font-family: sans-serif;
 }
-.header-container {
-    color: white;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-    padding: 70px;
-}
-.footer-container {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 40px;
-}
 .flex-container {
     height: 410px;
     display: flex;
@@ -29,10 +16,15 @@
     margin-top: 70px;
 }
 .flexbox-item-second {
+    background-color: #EFEFEF;
+    flex: 3;
 }
 .title-paragraph-container {
+    margin-left: 50px;
+    margin-top: 80px;
 }
 .title-container {
+    font-size: 50px;
 }
 .paragraph-container {
 }
