@@ -1,0 +1,30 @@
+.body-container {
+    background-color: #636363;
+    font-family: sans-serif;
+}
+.header-container {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+}
+.footer-container {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
+.flex-container {
+    height: 410px;
+    display: flex;
+}
+.flexbox-item-first {
+    background-color: #C4C4C4;
+    font-size: 20px;
+    flex: 1;
+}
+.links-container {
+    margin-left: 50px;
+    margin-top: 70px;
+}
