@@ -2,11 +2,24 @@
     background-color: #636363;
     font-family: sans-serif;
 }
+.header-container {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+}
+.footer-container {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+}
 .flex-container {
     height: 410px;
     display: flex;
 }
-.flexbox-item-first {
+.small-container {
     background-color: #C4C4C4;
     font-size: 20px;
     flex: 1;
@@ -15,7 +28,7 @@
     margin-left: 50px;
     margin-top: 70px;
 }
-.flexbox-item-second {
+.big-container {
     background-color: #E7E7E7;
     flex: 3;
 }
