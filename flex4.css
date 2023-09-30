@@ -1,12 +1,17 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/131156546-transparency-grid-backdrop-seamless-gray-grey-squares-pattern-repeatble-grayscale-squares-grid.jpg);
+}
 header {
     background-color: #00738A;
     height: 70px;
     display: flex;
+    justify-content: space-between;
 }
 .first-header-items {
     margin-left: 50px;
     display: flex;
-    flex: 1;
 }
 .header-item-first {
     background-color: #61ABB9 ;
@@ -18,7 +23,6 @@ header {
 }
 .second-header-items {
     display: flex;
-    flex: 1;
     justify-content: flex-end;
 }
 .header-item-second {
@@ -37,7 +41,7 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 }
-.first-small-line {
+.upper-container {
     height: 80px;
     margin-top: 10px;
     display: flex;
@@ -55,4 +59,51 @@ header {
     border-radius: 5px;
     color: #CAD3D5;
     margin: 10px 50px 10px 50px;
+}
+.companies-container {
+    background-color: #EBEBEB;
+    margin-top: 10px;
+}
+.company {
+    display: flex;
+    justify-content: space-around;
+}
+.names {
+    background-color: #CAD3D5;
+    border-radius: 5px;
+    color: #CAD3D5;
+    margin: 25px 20px 25px 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.lower-container {
+    height: 400px;
+    margin: 40px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-container {
+    flex: 2;
+    height: 100%;
+    background-color: #CAD3D5;    
+    border-radius: 10px;
+}
+.right-container {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.first-box {
+    flex: 1;
+    background-color: #CAD3D5;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.second-box {
+    flex: 1;
+    background-color: #CAD3D5;
+    margin-top: 20px;
+    border-radius: 10px;
 }
